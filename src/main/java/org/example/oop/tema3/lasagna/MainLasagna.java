@@ -13,7 +13,7 @@ public class MainLasagna {
         int preparationTime = lasagna.preparationTimeInMinutes(2);
         System.out.println("Preparation time: " + preparationTime + " minutes");
 
-        int totalTime = lasagna.totalTimeInMinutes(3, 20);
+        int totalTime = lasagna.totalTimeInMinutes(20 , 3);
         System.out.println("Total working time: " + totalTime + " minutes");
 
     }
